@@ -2,7 +2,7 @@
 
 This is the source code for my **UI/UX and Frontend Developer Portfolio Website**, showcasing my design projects, interactive prototypes, case studies, and professional work.
 
-🔗 **Live Demo:** https://shantanu-nautiyal-portfolio.vercel.app/#projects
+🔗 **Live Demo:** https://rajandasgupta.vercel.app/
 
 ---
 
