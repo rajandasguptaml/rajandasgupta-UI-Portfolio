@@ -8,7 +8,6 @@ const roles = [
   "UI/UX Designer",
   "Product Designer",
   "Frontend Developer",
-  "Vibe Coder",
 ]
 
 export function HeroSection() {
@@ -96,7 +95,9 @@ export function HeroSection() {
               className="mt-8 flex flex-wrap gap-4 justify-center"
             >
               <a
-                href="#contact"
+                href="https://www.linkedin.com/in/rajandasgupta/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-8 py-3 rounded-full bg-primary text-primary-foreground font-medium hover:opacity-90 transition-all hover:scale-105"
               >
                 {"Let's Connect"}
@@ -109,12 +110,7 @@ export function HeroSection() {
                 <Download size={18} />
                 Download Resume
               </a>
-              <a
-                href="#portfolio"
-                className="px-8 py-3 rounded-full border border-border text-foreground font-medium hover:border-primary hover:text-primary transition-all hover:scale-105"
-              >
-                View Projects
-              </a>
+
             </motion.div>
           </motion.div>
 
@@ -126,7 +122,7 @@ export function HeroSection() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
+          className="absolute bottom-12 left-1/2 -translate-x-1/2 z-20"
         >
           <motion.div
             animate={{ y: [0, 8, 0] }}

@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Shantanu Nautiyal | UI/UX Designer & Product Designer Portfolio',
+  title: 'Rajan Das Gupta | UI/UX Designer & Product Designer Portfolio',
   description: 'UI/UX Designer & Product Designer crafting user-centered digital experiences',
 }
 

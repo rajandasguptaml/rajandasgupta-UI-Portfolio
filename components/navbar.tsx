@@ -72,16 +72,11 @@ export function Navbar() {
               </a>
             )
           )}
+
           <a
-            href="/resume.pdf"
-            download
-            className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200"
-          >
-            <Download size={16} />
-            Resume
-          </a>
-          <a
-            href="#contact"
+            href="https://www.linkedin.com/in/rajandasgupta/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-5 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition-opacity"
           >
             {"Let's Connect"}
@@ -128,7 +123,9 @@ export function Navbar() {
                 )
               )}
               <a
-                href="#contact"
+                href="https://www.linkedin.com/in/rajandasgupta/"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}
                 className="px-5 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium text-center hover:opacity-90 transition-opacity"
               >
